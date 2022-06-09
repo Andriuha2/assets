@@ -14,11 +14,17 @@ svg {
 
 .launching {
   color: #ff3998;
+  font-size: x-small;
+  font-weight: 800;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 .text {
   color: #999999;
-  padding-right: 30%;
+  padding-right: 40%;
 }
 
 .doll {
@@ -26,7 +32,7 @@ svg {
   position: absolute;
   z-index: -1;
   right: 0;
-  top: 1vh;
+  top: 10vh;
   transform: translateX(50%);
 }
 
@@ -57,7 +63,7 @@ svg {
   right: 0;
   z-index: -2;
 
-  background: url(assets\background.svg);
+  background: url(assets/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,8 +90,13 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: ;
+  margin: 10px;
 }
 
 .first {
+  padding-bottom: 5rem;
+}
+
+.second {
+  background-image: url(assets/background.svg);
 }
